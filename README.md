@@ -1,5 +1,7 @@
 # Task 1: Credit Scoring Model — CodeAlpha Machine Learning Internship
 
+![Credit Scoring Web UI Preview](ui_preview.png)
+
 ## 📌 Project Overview
 This repository contains a complete machine learning solution for **Credit Scoring & Creditworthiness Prediction**, developed as part of the **CodeAlpha Machine Learning Internship**.
 
@@ -15,18 +17,8 @@ The model classifies individuals into creditworthiness categories (`Poor`, `Stan
 
 ---
 
-## 📊 Dataset Parameters
-- `age`: Borrower age
-- `annual_income`: Total yearly income
-- `num_bank_accounts`: Active bank accounts count
-- `num_credit_cards`: Total active credit cards
-- `interest_rate`: Average interest rate across loans
-- `delay_from_due_date_days`: Days overdue past payment deadline
-- `num_delayed_payments`: Total historical late payments
-- `credit_card_utilization`: Ratio of credit used vs total limit
-- `credit_history_age_months`: Age of credit account history in months
-- `outstanding_debt`: Total current debt
-- `debt_to_income_ratio`: Engineered feature `(outstanding_debt / annual_income) * 100`
+## 📊 Model Evaluation & Confusion Matrix
+![Confusion Matrix](confusion_matrix.png)
 
 ---
 
@@ -47,13 +39,6 @@ The model classifies individuals into creditworthiness categories (`Poor`, `Stan
    python app.py
    ```
    Open your browser at `http://localhost:5001`.
-
----
-
-## 📈 Model Performance & Evaluation Metrics
-- **Best Model**: Random Forest Classifier
-- **F1-Score**: ~94%+
-- **ROC-AUC Score**: ~0.98+
 
 ---
 
